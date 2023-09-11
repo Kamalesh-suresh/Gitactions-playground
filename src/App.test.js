@@ -13,6 +13,6 @@ import App from './App';
 
 test('renders MyComponent', () => {
 	render(<App />);
-	const element = screen.getByText(/Learn React/i);
+	const element = screen.getByText(/LearnReact/i);
 	expect(element).toBeInTheDocument();
 });
