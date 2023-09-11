@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /*
  * Copyright 2022 Agnostiq Inc.
  * Note: This file is subject to a proprietary license agreement entered into between
