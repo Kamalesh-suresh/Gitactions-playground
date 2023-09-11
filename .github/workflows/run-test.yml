@@ -1,7 +1,7 @@
 name: Run Unit Tests on Push
 
 on:
-  pull_request:
+  push:
     branches:
       - main
 
@@ -16,13 +16,13 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16.17.0
 
       - name: Install dependencies
         run: npm install
 
       - name: Run ESLint
-        run: npm run lint # Replace with your actual ESLint command if it's different
+        run: npm run lint
 
       - name: Run Prettier
         run: npm run format
