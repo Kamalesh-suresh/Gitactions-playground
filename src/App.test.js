@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /*
  * Copyright 2022 Agnostiq Inc.
  * Note: This file is subject to a proprietary license agreement entered into between
@@ -14,6 +13,6 @@ import App from './App';
 
 test('renders MyComponent', () => {
 	render(<App />);
-	const element = screen.getByText(/LearnReact/i);
+	const element = screen.getByText(/Learn React/i);
 	expect(element).toBeInTheDocument();
 });
